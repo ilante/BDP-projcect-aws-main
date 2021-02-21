@@ -1,0 +1,41 @@
+000 (010.001.000) 02/21 12:31:10 Job submitted from host: <172.31.90.23:9618?addrs=172.31.90.23-9618&noUDP&sock=4286_6b00_5>
+...
+007 (010.001.000) 02/21 12:31:10 Shadow exception!
+	Error from ip-172-31-93-214.ec2.internal: SHADOW at 172.31.90.23 failed to send file(s) to <172.31.93.214:34793>: error reading from /data2/in_train_tiny/train1.svm: (errno 2) No such file or directory; STARTER failed to receive file(s) from <172.31.90.23:9618>
+	0  -  Run Bytes Sent By Job
+	375  -  Run Bytes Received By Job
+...
+012 (010.001.000) 02/21 12:31:10 Job was held.
+	Error from ip-172-31-93-214.ec2.internal: SHADOW at 172.31.90.23 failed to send file(s) to <172.31.93.214:34793>: error reading from /data2/in_train_tiny/train1.svm: (errno 2) No such file or directory; STARTER failed to receive file(s) from <172.31.90.23:9618>
+	Code 13 Subcode 2
+...
+009 (010.001.000) 02/21 16:41:51 Job was aborted by the user.
+	via condor_rm (by user ec2-user)
+...
+000 (011.001.000) 02/21 16:42:32 Job submitted from host: <172.31.90.23:9618?addrs=172.31.90.23-9618&noUDP&sock=4297_f68b_5>
+...
+001 (011.001.000) 02/21 16:42:34 Job executing on host: <172.31.89.57:9618?addrs=172.31.89.57-9618&noUDP&sock=4084_dcdf_3>
+...
+006 (011.001.000) 02/21 16:42:42 Image size of job updated: 63308
+	62  -  MemoryUsage of job (MB)
+	63240  -  ResidentSetSize of job (KB)
+...
+006 (011.001.000) 02/21 16:47:42 Image size of job updated: 662920
+	62  -  MemoryUsage of job (MB)
+	63272  -  ResidentSetSize of job (KB)
+...
+005 (011.001.000) 02/21 16:48:27 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:05:51, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:05:51, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	8266  -  Run Bytes Sent By Job
+	20331762  -  Run Bytes Received By Job
+	8266  -  Total Bytes Sent By Job
+	20331762  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            : 20000       20000   8328472 
+	   Memory (MB)          :    62           1       989 
+...
