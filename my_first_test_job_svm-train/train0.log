@@ -1,0 +1,11 @@
+000 (008.000.000) 02/21 12:14:45 Job submitted from host: <172.31.90.23:9618?addrs=172.31.90.23-9618&noUDP&sock=4286_6b00_5>
+...
+007 (008.000.000) 02/21 12:14:47 Shadow exception!
+	Error from ip-172-31-89-57.ec2.internal: SHADOW at 172.31.90.23 failed to send file(s) to <172.31.89.57:35696>: error reading from /data2/my_first_test_job_svm-train/train0.svm: (errno 2) No such file or directory; STARTER failed to receive file(s) from <172.31.90.23:9618>
+	0  -  Run Bytes Sent By Job
+	17227468  -  Run Bytes Received By Job
+...
+012 (008.000.000) 02/21 12:14:47 Job was held.
+	Error from ip-172-31-89-57.ec2.internal: SHADOW at 172.31.90.23 failed to send file(s) to <172.31.89.57:35696>: error reading from /data2/my_first_test_job_svm-train/train0.svm: (errno 2) No such file or directory; STARTER failed to receive file(s) from <172.31.90.23:9618>
+	Code 13 Subcode 2
+...

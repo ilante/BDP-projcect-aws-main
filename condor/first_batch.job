@@ -1,0 +1,45 @@
+####################################################
+########### my first condor batch job ##############
+####################################################
+
+
+########### The program that will be executed #######
+
+Executable = myexec.sh
+
+############ Input Sandbox  #########################
+
+Input      = world.txt  
+#Can contain standard input
+
+transfer_input_files = file1in, file2in
+
+## Arguments that will be passed to the executable ##
+
+Arguments  = "world.txt 0"
+
+###### Output Sandbox ###############################
+
+Log        = condor.log    
+# will contain condor log
+
+Output     = condor.out    
+# will contain the standard output
+
+Error      = condor.error  
+# will contain the standard error
+
+transfer_output_files = file1out, file2out
+
+############## condor control variables #############
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+Universe   = vanilla
+
+#requirements = (Machine == "phd-wn-1")
+
+#####################################################
+
+Queue

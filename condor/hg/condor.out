@@ -1,0 +1,6 @@
+launching command:  ./bwa aln -t 1 /data/phd-2018/hg19/hg19bwaidx read200.fa > read200.sai
+launching command:  ./bwa samse -n 10 /data/phd-2018/hg19/hg19bwaidx read200.sai read200.fa > read200.sam
+Creating md5sums
+gzipping out text file
+launching command:  gzip read200.sam
+exiting
