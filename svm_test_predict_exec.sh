@@ -13,3 +13,4 @@
 
 svm-train -c 2 -g 0.5 -m 2000 $1 $2 && \
 svm-predict $3 $2 $4
+

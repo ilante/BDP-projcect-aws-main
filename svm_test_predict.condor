@@ -9,19 +9,19 @@ Executable = svm_test_predict_exec.sh
 
 ############ Input Sandbox  #########################
 
-Input      = /home/ec2-user/in_train_tiny/train$(Process).svm
+Input      = /home/centos/BDP-projcect-aws-main/in_train_tiny/train$(Process).svm
 # Can contain standard input
 
-transfer_input_files = /home/ec2-user/in_predict_tiny/test$(Process).svm
+transfer_input_files = /home/centos/BDP-projcect-aws-main/in_predict_tiny/test$(Process).svm
 # Because I have more than 1 input file I need transfer_input_files!
 # using sb for input and shared vol for .model fil
 
 ####################################################
-Arguments = "train$(Process).svm /data2/svm_outputs/train/train$(Process).model test$(Process).svm prediction$(Process).out"
+Arguments = "train$(Process).svm /data/svm_outputs/train/train$(Process).model test$(Process).svm prediction$(Process).out"
 # train$(Process).svm & test$(Process).svm are passed 
 # via the sandbox
 #
-#/data2/svm_outputs/train/train$(Process).model 
+#/data/svm_outputs/train/train$(Process).model 
 # are passed via the shared volume
 ###### Output Sandbox ###############################
 
