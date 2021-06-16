@@ -15,3 +15,4 @@ obj = -3209.659130, rho = 0.175304
 nSV = 7761, nBSV = 119
 Total nSV = 14763
 Accuracy = 69.4764% (3264/4698) (classification)
+Duration 366
