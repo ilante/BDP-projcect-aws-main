@@ -1,0 +1,29 @@
+centos@main:~/BDP-projcect-aws-main/in_predict_tiny_more$ cat test0.svm > test2.svm && wc -l test2.svm && cat test0.svm >> test2.svm && wc -l test2.svm
+4698 test2.svm
+9396 test2.svm
+centos@main:~/BDP-projcect-aws-main/in_predict_tiny_more$ rm test1.svm 
+centos@main:~/BDP-projcect-aws-main/in_predict_tiny_more$ mv test2.svm test1.svm
+centos@main:~/BDP-projcect-aws-main/in_predict_tiny_more$ ll
+total 18620
+-rw-rw-r--. 1 centos centos  5301661 Jun 16 16:44 test0.svm
+-rw-rw-r--. 1 centos centos 10603322 Jun 16 16:47 test1.svm
+centos@main:~/BDP-projcect-aws-main/in_predict_tiny_more$ cat test1.svm > test2.svm && wc -l test2.svm && cat test0.svm >> test2.svm && wc -l test2.svm
+9396 test2.svm
+14094 test2.svm
+centos@main:~/BDP-projcect-aws-main/in_predict_tiny_more$ cat test2.svm > test3.svm && wc -l test3.svm && cat test0.svm >> test3.svm && wc -l test3.svm
+14094 test3.svm
+18792 test3.svm
+centos@main:~/BDP-projcect-aws-main/in_predict_tiny_more$ cat test3.svm > test4.svm && wc -l test4.svm && cat test0.svm >> test4.svm && wc -l test4.svm
+18792 test4.svm
+23490 test4.svm
+centos@main:~/BDP-projcect-aws-main/in_predict_tiny_more$ cat test4.svm > test5.svm && wc -l test5.svm && cat test0.svm >> test5.svm && wc -l test5.svm
+23490 test5.svm
+28188 test5.svm
+centos@main:~/BDP-projcect-aws-main/in_predict_tiny_more$ for i in {0..5}; do wc -l test${i}.svm ; done
+4698 test0.svm
+9396 test1.svm
+14094 test2.svm
+18792 test3.svm
+23490 test4.svm
+28188 test5.svm
+
