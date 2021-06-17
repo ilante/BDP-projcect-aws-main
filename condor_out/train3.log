@@ -1,0 +1,161 @@
+000 (014.003.000) 06/16 20:24:16 Job submitted from host: <172.31.1.180:9618?addrs=172.31.1.180-9618&noUDP&sock=960_0f02_5>
+...
+007 (014.003.000) 06/16 20:30:39 Shadow exception!
+	Error from ip-172-31-9-58.ec2.internal: SHADOW at 172.31.1.180 failed to send file(s) to <172.31.9.58:39781>: error reading from /home/centos/BDP-projcect-aws-main/in_train_tiny/train3.svm: (errno 2) No such file or directory; STARTER failed to receive file(s) from <172.31.1.180:9618>
+	0  -  Run Bytes Sent By Job
+	21207320  -  Run Bytes Received By Job
+...
+012 (014.003.000) 06/16 20:30:39 Job was held.
+	Error from ip-172-31-9-58.ec2.internal: SHADOW at 172.31.1.180 failed to send file(s) to <172.31.9.58:39781>: error reading from /home/centos/BDP-projcect-aws-main/in_train_tiny/train3.svm: (errno 2) No such file or directory; STARTER failed to receive file(s) from <172.31.1.180:9618>
+	Code 13 Subcode 2
+...
+000 (015.003.000) 06/16 21:18:51 Job submitted from host: <172.31.1.180:9618?addrs=172.31.1.180-9618&noUDP&sock=960_0f02_5>
+...
+007 (015.003.000) 06/16 21:18:51 Shadow exception!
+	Error from ip-172-31-9-58.ec2.internal: SHADOW at 172.31.1.180 failed to send file(s) to <172.31.9.58:36355>: error reading from /home/centos/BDP-projcect-aws-main/in_predict_tiny/test3.svm: (errno 2) No such file or directory; STARTER failed to receive file(s) from <172.31.1.180:9618>
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (015.003.000) 06/16 21:18:51 Job was held.
+	Error from ip-172-31-9-58.ec2.internal: SHADOW at 172.31.1.180 failed to send file(s) to <172.31.9.58:36355>: error reading from /home/centos/BDP-projcect-aws-main/in_predict_tiny/test3.svm: (errno 2) No such file or directory; STARTER failed to receive file(s) from <172.31.1.180:9618>
+	Code 13 Subcode 2
+...
+009 (015.003.000) 06/16 21:19:41 Job was aborted by the user.
+	via condor_rm (by user centos)
+...
+009 (014.003.000) 06/16 21:19:41 Job was aborted by the user.
+	via condor_rm (by user centos)
+...
+000 (016.003.000) 06/16 21:20:06 Job submitted from host: <172.31.1.180:9618?addrs=172.31.1.180-9618&noUDP&sock=960_0f02_5>
+...
+007 (016.003.000) 06/16 21:20:12 Shadow exception!
+	Error from ip-172-31-9-58.ec2.internal: SHADOW at 172.31.1.180 failed to send file(s) to <172.31.9.58:43103>: error reading from /home/centos/BDP-projcect-aws-main/in_predict_tiny/test3.svm: (errno 2) No such file or directory; STARTER failed to receive file(s) from <172.31.1.180:9618>
+	0  -  Run Bytes Sent By Job
+	675  -  Run Bytes Received By Job
+...
+012 (016.003.000) 06/16 21:20:12 Job was held.
+	Error from ip-172-31-9-58.ec2.internal: SHADOW at 172.31.1.180 failed to send file(s) to <172.31.9.58:43103>: error reading from /home/centos/BDP-projcect-aws-main/in_predict_tiny/test3.svm: (errno 2) No such file or directory; STARTER failed to receive file(s) from <172.31.1.180:9618>
+	Code 13 Subcode 2
+...
+009 (016.003.000) 06/16 21:23:29 Job was aborted by the user.
+	via condor_rm (by user centos)
+...
+000 (017.003.000) 06/16 21:24:05 Job submitted from host: <172.31.1.180:9618?addrs=172.31.1.180-9618&noUDP&sock=960_0f02_5>
+...
+007 (017.003.000) 06/16 21:30:17 Shadow exception!
+	Error from ip-172-31-9-58.ec2.internal: SHADOW at 172.31.1.180 failed to send file(s) to <172.31.9.58:36055>: error reading from /home/centos/BDP-projcect-aws-main/in_train_tiny/train3.svm: (errno 2) No such file or directory; STARTER failed to receive file(s) from <172.31.1.180:9618>
+	0  -  Run Bytes Sent By Job
+	21207320  -  Run Bytes Received By Job
+...
+012 (017.003.000) 06/16 21:30:17 Job was held.
+	Error from ip-172-31-9-58.ec2.internal: SHADOW at 172.31.1.180 failed to send file(s) to <172.31.9.58:36055>: error reading from /home/centos/BDP-projcect-aws-main/in_train_tiny/train3.svm: (errno 2) No such file or directory; STARTER failed to receive file(s) from <172.31.1.180:9618>
+	Code 13 Subcode 2
+...
+009 (017.003.000) 06/16 22:09:42 Job was aborted by the user.
+	via condor_rm (by user centos)
+...
+000 (018.003.000) 06/16 22:11:20 Job submitted from host: <172.31.1.180:9618?addrs=172.31.1.180-9618&noUDP&sock=960_0f02_5>
+...
+007 (018.003.000) 06/16 22:11:26 Shadow exception!
+	Error from ip-172-31-9-58.ec2.internal: SHADOW at 172.31.1.180 failed to send file(s) to <172.31.9.58:46359>: error reading from /home/centos/BDP-projcect-aws-main/in_train_tiny/test3.svm: (errno 2) No such file or directory; STARTER failed to receive file(s) from <172.31.1.180:9618>
+	0  -  Run Bytes Sent By Job
+	675  -  Run Bytes Received By Job
+...
+012 (018.003.000) 06/16 22:11:26 Job was held.
+	Error from ip-172-31-9-58.ec2.internal: SHADOW at 172.31.1.180 failed to send file(s) to <172.31.9.58:46359>: error reading from /home/centos/BDP-projcect-aws-main/in_train_tiny/test3.svm: (errno 2) No such file or directory; STARTER failed to receive file(s) from <172.31.1.180:9618>
+	Code 13 Subcode 2
+...
+009 (018.003.000) 06/16 22:13:13 Job was aborted by the user.
+	via condor_rm (by user centos)
+...
+000 (019.003.000) 06/16 22:13:33 Job submitted from host: <172.31.1.180:9618?addrs=172.31.1.180-9618&noUDP&sock=960_0f02_5>
+...
+007 (019.003.000) 06/16 22:19:55 Shadow exception!
+	Error from ip-172-31-9-58.ec2.internal: SHADOW at 172.31.1.180 failed to send file(s) to <172.31.9.58:34349>: error reading from /home/centos/BDP-projcect-aws-main/in_train_tiny/train3.svm: (errno 2) No such file or directory; STARTER failed to receive file(s) from <172.31.1.180:9618>
+	0  -  Run Bytes Sent By Job
+	21207320  -  Run Bytes Received By Job
+...
+012 (019.003.000) 06/16 22:19:55 Job was held.
+	Error from ip-172-31-9-58.ec2.internal: SHADOW at 172.31.1.180 failed to send file(s) to <172.31.9.58:34349>: error reading from /home/centos/BDP-projcect-aws-main/in_train_tiny/train3.svm: (errno 2) No such file or directory; STARTER failed to receive file(s) from <172.31.1.180:9618>
+	Code 13 Subcode 2
+...
+000 (020.003.000) 06/17 05:41:04 Job submitted from host: <172.31.1.180:9618?addrs=172.31.1.180-9618&noUDP&sock=960_0f02_5>
+...
+001 (020.003.000) 06/17 05:41:13 Job executing on host: <172.31.12.90:9618?addrs=172.31.12.90-9618&noUDP&sock=949_8377_3>
+...
+006 (020.003.000) 06/17 05:41:13 Image size of job updated: 1
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+005 (020.003.000) 06/17 05:41:13 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	44  -  Run Bytes Sent By Job
+	21207320  -  Run Bytes Received By Job
+	44  -  Total Bytes Sent By Job
+	21207320  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :    42500    42500  13976532 
+	   Memory (MB)          :        0     1024      1814 
+...
+009 (019.003.000) 06/17 05:41:44 Job was aborted by the user.
+	via condor_rm (by user centos)
+...
+000 (021.003.000) 06/17 21:21:02 Job submitted from host: <172.31.1.180:9618?addrs=172.31.1.180-9618&noUDP&sock=965_7cfb_5>
+...
+001 (021.003.000) 06/17 21:22:39 Job executing on host: <172.31.9.58:9618?addrs=172.31.9.58-9618&noUDP&sock=951_e2a7_3>
+...
+006 (021.003.000) 06/17 21:22:47 Image size of job updated: 108228
+	71  -  MemoryUsage of job (MB)
+	72420  -  ResidentSetSize of job (KB)
+...
+006 (021.003.000) 06/17 21:25:42 Image size of job updated: 332528
+	71  -  MemoryUsage of job (MB)
+	72552  -  ResidentSetSize of job (KB)
+...
+005 (021.003.000) 06/17 21:25:42 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:02:56, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:02:56, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	622  -  Run Bytes Sent By Job
+	37112304  -  Run Bytes Received By Job
+	622  -  Total Bytes Sent By Job
+	37112304  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.99        1         1 
+	   Disk (KB)            : 37500       37500  13959584 
+	   Memory (MB)          :    71        1024      1814 
+...
+000 (022.003.000) 06/17 21:35:46 Job submitted from host: <172.31.1.180:9618?addrs=172.31.1.180-9618&noUDP&sock=965_7cfb_5>
+...
+001 (022.003.000) 06/17 21:38:23 Job executing on host: <172.31.9.58:9618?addrs=172.31.9.58-9618&noUDP&sock=951_e2a7_3>
+...
+006 (022.003.000) 06/17 21:38:33 Image size of job updated: 117132
+	84  -  MemoryUsage of job (MB)
+	85328  -  ResidentSetSize of job (KB)
+...
+006 (022.003.000) 06/17 21:42:51 Image size of job updated: 345128
+	84  -  MemoryUsage of job (MB)
+	85328  -  ResidentSetSize of job (KB)
+...
+005 (022.003.000) 06/17 21:42:51 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:04:25, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:04:25, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	28827  -  Run Bytes Sent By Job
+	37112304  -  Run Bytes Received By Job
+	28827  -  Total Bytes Sent By Job
+	37112304  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.99        1         1 
+	   Disk (KB)            : 37500       37500  13959584 
+	   Memory (MB)          :    84        1024      1814 
+...
