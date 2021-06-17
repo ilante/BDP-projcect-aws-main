@@ -18,17 +18,21 @@ request_cpus = 1
 Input      = /home/centos/BDP-projcect-aws-main/in_train_tiny/train$(Process).svm
 # Can contain standard input
 
-transfer_input_files = /home/centos/BDP-projcect-aws-main/in_predict_tiny/test$(Process).svm
+transfer_input_files = /home/centos/BDP-projcect-aws-main/in_train_tiny/test_data.svm
 # Because I have more than 1 input file I need transfer_input_files!
-# using sb for input and shared vol for .model fil
+# using sb for input and shared vol for .model file
 
 ####################################################
-Arguments = "train$(Process).svm /data/svm_outputs/train/train$(Process).model test$(Process).svm prediction$(Process).out"
+# Need to rename /data/svm_outputs/train$number for 
+# consecutive runs
+# 
+Arguments = "train$(Process).svm /data/svm_outputs/train/train$(Process).model test_data.svm prediction$(Process).out"
 # train$(Process).svm & test$(Process).svm are passed 
 # via the sandbox
 #
 #/data/svm_outputs/train/train$(Process).model 
-# are passed via the shared volume
+# are passed via the shared volume to share the model
+# with members of the team publicly
 ###### Output Sandbox ###############################
 
 Log        = condor_out/train$(Process).log
@@ -39,7 +43,7 @@ Output     = condor_out/train$(Process).out
 
 Error      = condor_out/train$(Process).error
 # will contain the standard error
-transfer_output_remaps = "prediction$(Process).out=/home/centos/BDP-projcect-aws-main/in_train_tiny/prediction$(Process).out"
+transfer_output_remaps = "prediction$(Process).out=out_predict_tiny/prediction$(Process).out"
 
 ############## condor control variables #############
 
