@@ -1,18 +1,18 @@
-..............*....*
-optimization finished, #iter = 18853
-nu = 0.393258
-obj = -4390.482743, rho = -0.261082
-nSV = 9368, nBSV = 426
-...............*.....*
-optimization finished, #iter = 20383
-nu = 0.373769
-obj = -4806.387371, rho = -0.076864
-nSV = 10669, nBSV = 313
-...........*....*
-optimization finished, #iter = 15197
-nu = 0.332049
-obj = -3209.659130, rho = 0.175304
-nSV = 7761, nBSV = 119
-Total nSV = 14763
-Accuracy = 69.4764% (3264/4698) (classification)
-Duration 366
+....*.*
+optimization finished, #iter = 5836
+nu = 0.395252
+obj = -1317.008471, rho = -0.298133
+nSV = 2926, nBSV = 100
+....*.*
+optimization finished, #iter = 5989
+nu = 0.383986
+obj = -1459.556731, rho = -0.230587
+nSV = 3349, nBSV = 110
+..*.*
+optimization finished, #iter = 3883
+nu = 0.350984
+obj = -1002.721940, rho = 0.052364
+nSV = 2375, nBSV = 79
+Total nSV = 4547
+Accuracy = 98.4887% (13881/14094) (classification)
+Duration 100

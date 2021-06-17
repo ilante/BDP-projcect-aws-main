@@ -1,0 +1,30 @@
+....
+WARNING: using -h 0 may be faster
+*..
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 6108
+nu = 0.119142
+obj = -1811.076145, rho = -0.299552
+nSV = 3689, nBSV = 340
+.....
+WARNING: using -h 0 may be faster
+*.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 6513
+nu = 0.109595
+obj = -1815.011163, rho = -0.234231
+nSV = 4192, nBSV = 266
+..
+WARNING: using -h 0 may be faster
+*.
+WARNING: using -h 0 may be faster
+*
+optimization finished, #iter = 3896
+nu = 0.104861
+obj = -1353.169620, rho = 0.047383
+nSV = 2967, nBSV = 247
+Total nSV = 6254
+Accuracy = 98.51% (13884/14094) (classification)
+Duration 268
