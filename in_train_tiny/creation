@@ -1,0 +1,29 @@
+centos@main:~/BDP-projcect-aws-main/in_predict_tiny_more$ cat train0.svm > train2.svm && wc -l train2.svm && cat train0.svm >> train2.svm && wc -l train2.svm
+4698 train2.svm
+9396 train2.svm
+centos@main:~/BDP-projcect-aws-main/in_predict_tiny_more$ rm train1.svm 
+centos@main:~/BDP-projcect-aws-main/in_predict_tiny_more$ mv train2.svm train1.svm
+centos@main:~/BDP-projcect-aws-main/in_predict_tiny_more$ ll
+total 18620
+-rw-rw-r--. 1 centos centos  5301661 Jun 16 16:44 train0.svm
+-rw-rw-r--. 1 centos centos 10603322 Jun 16 16:47 train1.svm
+centos@main:~/BDP-projcect-aws-main/in_predict_tiny_more$ cat train1.svm > train2.svm && wc -l train2.svm && cat train0.svm >> train2.svm && wc -l train2.svm
+9396 train2.svm
+14094 train2.svm
+centos@main:~/BDP-projcect-aws-main/in_predict_tiny_more$ cat train2.svm > train3.svm && wc -l train3.svm && cat train0.svm >> train3.svm && wc -l train3.svm
+14094 train3.svm
+18792 train3.svm
+centos@main:~/BDP-projcect-aws-main/in_predict_tiny_more$ cat train3.svm > train4.svm && wc -l train4.svm && cat train0.svm >> train4.svm && wc -l train4.svm
+18792 train4.svm
+23490 train4.svm
+centos@main:~/BDP-projcect-aws-main/in_predict_tiny_more$ cat train4.svm > train5.svm && wc -l train5.svm && cat train0.svm >> train5.svm && wc -l train5.svm
+23490 train5.svm
+28188 train5.svm
+centos@main:~/BDP-projcect-aws-main/in_predict_tiny_more$ for i in {0..5}; do wc -l train${i}.svm ; done
+4698 train0.svm
+9396 train1.svm
+14094 train2.svm
+18792 train3.svm
+23490 train4.svm
+28188 train5.svm
+
