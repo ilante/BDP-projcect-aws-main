@@ -1,0 +1,20 @@
+....*.*
+optimization finished, #iter = 5939
+nu = 0.211934
+obj = -1483.076140, rho = -0.299552
+nSV = 3296, nBSV = 178
+....*..*
+optimization finished, #iter = 6380
+nu = 0.203130
+obj = -1583.011162, rho = -0.234244
+nSV = 3727, nBSV = 152
+..
+WARNING: using -h 0 may be faster
+*.*
+optimization finished, #iter = 3846
+nu = 0.188023
+obj = -1121.169621, rho = 0.047392
+nSV = 2572, nBSV = 130
+Total nSV = 5314
+Accuracy = 98.51% (13884/14094) (classification)
+Duration 157

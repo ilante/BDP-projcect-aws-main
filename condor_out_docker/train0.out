@@ -1,0 +1,18 @@
+....*.*
+optimization finished, #iter = 5836
+nu = 0.395252
+obj = -1317.008471, rho = -0.298133
+nSV = 2926, nBSV = 100
+....*.*
+optimization finished, #iter = 5989
+nu = 0.383986
+obj = -1459.556731, rho = -0.230587
+nSV = 3349, nBSV = 110
+..*.*
+optimization finished, #iter = 3883
+nu = 0.350984
+obj = -1002.721940, rho = 0.052364
+nSV = 2375, nBSV = 79
+Total nSV = 4547
+Accuracy = 98.4887% (13881/14094) (classification)
+Duration 105
