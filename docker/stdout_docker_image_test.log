@@ -1,10 +1,12 @@
-ila@spacebar docker % docker run -it centos8_libsvm
-[root@a4ce6091e8c3 /]# svm-predict
+centos@ wn_1 :~$ sudo su -
+Last login: Fri Jun 01 20:27:40 UTC 2021 on pts/0
+[root@ip-172-31-9-58 ~]# docker run -it ilante/centos8_libsvm:1.0.0
+[root@4be262e7ed64 /]# svm-predict
 Usage: svm-predict [options] test_file model_file output_file
 options:
 -b probability_estimates: whether to predict probability estimates, 0 or 1 (default 0); for one-class SVM only 0 is supported
 -q : quiet mode (no outputs)
-[root@a4ce6091e8c3 /]# svm-train
+[root@4be262e7ed64 /]# svm-train
 Usage: svm-train [options] training_set_file [model_file]
 options:
 -s svm_type : set type of SVM (default 0)
