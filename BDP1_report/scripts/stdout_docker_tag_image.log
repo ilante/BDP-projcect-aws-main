@@ -1,0 +1,5 @@
+ila@spacebar docker % docker tag centos8_libsvm:1.0.0 ilante/centos8_libsvm:1.0.0
+ila@spacebar docker % docker image ls
+REPOSITORY                 TAG       IMAGE ID       CREATED          SIZE
+ilante/centos8_libsvm      1.0.0     dc2ce4cbb529   13 minutes ago   286MB
+centos8_libsvm             1.0.0     dc2ce4cbb529   13 minutes ago   286MB

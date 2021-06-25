@@ -1,0 +1,57 @@
+####################################################
+################### svm-train ######################
+################### svm-predict#####################
+####################################################
+
+########### The program to be executed #######
+
+Executable = svm_test_predict_exec.sh
+####################################################
+# Deciding how much Resourches must be allocated
+####################################################
+#
+request_memory = 1024
+request_cpus = 1
+
+############ Input Sandbox  #########################
+
+Input      = /home/centos/BDP-projcect-aws-main/in_train_tiny/train$(Process).svm
+# Can contain standard input
+
+transfer_input_files = /home/centos/BDP-projcect-aws-main/in_train_tiny/test_data.svm
+# Because I have more than 1 input file I need transfer_input_files!
+# using sb for input and shared vol for .model file
+
+####################################################
+# Need to rename /data/svm_outputs/train$number for 
+# consecutive runs
+# 
+Arguments = "train$(Process).svm /data/svm_outputs/train/train$(Process).model test_data.svm prediction$(Process).out"
+# train$(Process).svm & test$(Process).svm are passed 
+# via the sandbox
+#
+#/data/svm_outputs/train/train$(Process).model 
+# are passed via the shared volume to share the model
+# with members of the team publicly
+###### Output Sandbox ###############################
+
+Log        = condor_out/train$(Process).log
+# will contain condor log
+
+Output     = condor_out/train$(Process).out
+# will contain the standard output
+
+Error      = condor_out/train$(Process).error
+# will contain the standard error
+transfer_output_remaps = "prediction$(Process).out=out_predict_tiny/prediction$(Process).out"
+
+############## condor control variables #############
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+Universe = vanilla
+
+#####################################################
+
+Queue 6 

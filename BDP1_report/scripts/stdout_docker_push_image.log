@@ -1,0 +1,6 @@
+ila@spacebar docker % docker push ilante/centos8_libsvm:1.0.0
+The push refers to repository [docker.io/ilante/centos8_libsvm]
+d86f07b0b8d9: Pushed
+6a016089002c: Pushed
+2653d992f4ef: Pushed
+1.0.0: digest: sha256:c92ae898ac81f930e60f095e9c258d9f86388517b3f2c76701db16d28d2fc107 size: 953
