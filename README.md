@@ -1,6 +1,8 @@
 # BDP-projcect-aws-main
 Contains all files from main node of aws mini cluster
 
+Full report is available [here](https://github.com/ilante/BDP-projcect-aws-main/blob/main/BDP1_report/BDP1_report_ilante.pdf)
+
 ## The Tasks: Building a Small Computing Infrastructure as a Service in the Cloud
 
 1. Install & configuer as Batch System &rarr; HTCondor
