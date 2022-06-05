@@ -1,6 +1,6 @@
 # BDP-projcect-aws-main
 
-Big Data Processing Infrastructures [course page:](https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2019/433238)
+Big Data Processing Infrastructures [course page](https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2019/433238)
 
 Contains all files from main node of aws mini cluster
 
