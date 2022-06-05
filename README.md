@@ -1,4 +1,7 @@
 # BDP-projcect-aws-main
+
+Big Data Processing Infrastructures course page: https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2019/433238
+
 Contains all files from main node of aws mini cluster
 
 Full report is available [here](https://github.com/ilante/BDP-projcect-aws-main/blob/main/BDP1_report/BDP1_report_ilante.pdf)
